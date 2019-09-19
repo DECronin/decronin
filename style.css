@@ -1,4 +1,9 @@
 img{
     height: 200px;
     border-radius: 85%;
+    float: left;
+    margin: 15px;
+}
+.spinner-border{
+    float: right;
 }
