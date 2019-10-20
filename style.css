@@ -1,9 +1,57 @@
-img{
+#bio-pic{
     height: 200px;
     border-radius: 85%;
     float: left;
-    margin: 15px;
+    margin: 20px;
 }
-.spinner-border{
-    float: right;
+body{
+ background-image: url(./images/coding_line_seamless_pattern-01.jpg);
+ background-repeat: repeat;
+ background-blend-mode: darken;
 }
+.container{
+    color: rgb(204, 245, 188);
+    background-color: hsl(146, 50%, 36%, 0.5);
+    font-weight: bold;
+    height: auto;
+    overflow: auto;
+    padding: 15px;
+    text-shadow: -2px 2px 1px rgb(17, 94, 55);
+}
+.navbar{
+    text-shadow: -2px 1px 1px rgb(17, 94, 55, 0.45);
+}
+.jumbotron{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 25px;
+  }
+.work:nth-child(even) {
+    margin-right: 80px;
+  }
+.work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+.work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: rgb(17, 94, 55, 0.75);
+    border-bottom: 0;
+  }
+  #portfolio-h2{
+      margin-left: 100px;
+  }
