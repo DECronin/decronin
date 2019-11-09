@@ -40,7 +40,8 @@ body{
     margin-left: 60px;
 }
 .work img {
-    width: 120%;
+    width: 265px;
+    height: 200px;
     border: 0 none;
     opacity: 0.9;
   }
