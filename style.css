@@ -6,7 +6,8 @@
 }
 body{
  background-image: url(./images/space-624054_1280.jpg);
- background-size: cover;
+ background-size: 100vw 100vh;
+ background-attachment: fixed;
  background-blend-mode: darken;
 }
 .container{
@@ -17,11 +18,29 @@ body{
     padding: 15px;
 }
 .navbar{
-    text-shadow: -2px 1px 1px rgb(17, 94, 55, 0.45);
+    background-color: rgba(89, 248, 158, 0.3) !important;
+}
+a{
+    color: rgb(91, 180, 176) !important;
+    text-shadow: -1.5px 1.5px 1.15px rgb(52, 52, 151);
+}
+a.active{
+    color: rgb(198, 175, 230) !important;
+    text-shadow: -1.75px 1.75px 1.5px black;
+    font-size: 115%;
 }
 .jumbotron{
     padding-top: 0px;
+    background-color: rgba(13, 102, 51, 0.15);
     padding-bottom: 0px;
+}
+.lead{
+    margin-left: 20vw;
+    width: 45vw;
+    text-align: center;
+}
+.quote-source{
+   margin-left: 45vw;   
 }
 .work {
     position: relative;
@@ -61,10 +80,10 @@ body{
   }
   h1{
       text-shadow: -2.25px 2px 1px black;
-      
+      font-weight: 500 !important;
   }
   h2{
-      margin: 35px auto 35px 35px;
+      margin: 15px auto 25px 35px;
       text-shadow: -2px 2px 1px rgb(72, 17, 94);
       border-bottom: solid 3px rgb(72, 17, 94);
   }
@@ -76,3 +95,4 @@ body{
     background-color: rgba(13, 102, 51, 0.25);
     height: 140vh;
   }
+  
