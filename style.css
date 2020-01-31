@@ -61,3 +61,6 @@ body{
   #portfolio-h2{
       margin-left: 100px;
   }
+  h2{
+      margin: 35px auto 35px 35px;
+  }
