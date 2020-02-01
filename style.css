@@ -96,6 +96,6 @@ a.active{
     height: 140vh;
   }
   .navbar-collapse.collapse.in {
-    display: inline-block!important;
-    position: relative;
+    display: block!important;
+    position: absolute !important;
   }
