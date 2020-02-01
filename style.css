@@ -97,5 +97,5 @@ a.active{
   }
   .navbar-collapse.collapse.in {
     display: inline-block!important;
-    position:absolute;
+    position: relative;
   }
