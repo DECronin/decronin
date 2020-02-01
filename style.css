@@ -95,9 +95,3 @@ a.active{
     background-color: rgba(13, 102, 51, 0.25);
     height: 140vh;
   }
-  .navbar-collapse.collapse.in {
-    display: block!important;
-    position: absolute !important;
-    overflow: auto; 
-    flex-wrap: wrap;
-  }
